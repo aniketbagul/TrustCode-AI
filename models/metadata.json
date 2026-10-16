@@ -1,0 +1,64 @@
+{
+    "model_name": "XGBoost",
+    "model_version": "1.0.0",
+    "label_mapping": {
+        "0": "High",
+        "1": "Low",
+        "2": "Medium"
+    },
+    "metrics": {
+        "accuracy": 0.9955555555555555,
+        "precision": 0.9956148148148147,
+        "recall": 0.9955555555555555,
+        "f1_score": 0.9955542491984956,
+        "confusion_matrix": [
+            [
+                68,
+                0,
+                1
+            ],
+            [
+                0,
+                82,
+                0
+            ],
+            [
+                0,
+                0,
+                74
+            ]
+        ]
+    },
+    "feature_names": [
+        "requirement_coverage",
+        "matched_requirement_ratio",
+        "partial_requirement_ratio",
+        "total_loc",
+        "total_sloc",
+        "total_functions",
+        "total_classes",
+        "avg_function_length",
+        "avg_cyclomatic_complexity",
+        "max_cyclomatic_complexity",
+        "maintainability_index",
+        "comment_ratio",
+        "codebert_embedding_norm",
+        "codebert_embedding_std",
+        "repository_age_days",
+        "total_commits",
+        "commits_per_month",
+        "recent_activity_days",
+        "recent_activity_score",
+        "contributor_count",
+        "contributor_consistency_score",
+        "has_test_files",
+        "test_file_count",
+        "has_readme",
+        "readme_length_chars",
+        "readme_section_count",
+        "has_setup_instructions",
+        "has_license",
+        "doc_file_count",
+        "overall_documentation_score"
+    ]
+}
